@@ -14,7 +14,7 @@ import (
 	"google.golang.org/api/option"
 )
 
-const Version = "1.0.0"
+const Version = "1.1.0"
 
 func newStorageClient(ctx context.Context) (*storage.Client, error) {
 	o := []option.ClientOption{}
